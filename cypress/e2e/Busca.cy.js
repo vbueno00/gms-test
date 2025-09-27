@@ -11,11 +11,13 @@ describe('US-001-Busca de filmes', () => {
      cy.get('#results-section > div').first().within(() => {
       cy.get('img').should('be.visible')
       cy.get('p').should('not.be.empty')
+  })
+  })
 
      
   })
-    })
-  })
+  
+  
      
       
 
